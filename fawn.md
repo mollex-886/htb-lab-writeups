@@ -28,7 +28,7 @@ Used smbclient to check available SMB shares.
 
 Command:
 ```bash
-smbclient -L //<target-ip>/
+smbclient -L ////<target-ip>/
 ```
 
 ---
@@ -38,7 +38,7 @@ Connected to the accessible share using anonymous authentication.
 
 Command:
 ```bash
-smbclient //<target-ip>/<share-name>
+smbclient ////<target-ip>/<share-name>
 ```
 
 ---
